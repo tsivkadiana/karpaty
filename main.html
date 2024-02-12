@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="sidenav">
+        <a id="closebtn">&times;</a>
+        <p>karpaty.rocks</p>
+        <button><img src="./images/mdi_plus-circle.svg"/>Додати об'єкт</button>
+        <div id="account">
+            <img src="./images/user.svg" alt="user-icon"/>
+            <span>Кабінет</span>
+        </div>
+        <hr/>
+        <div>
+            <a href="#">Житло</a>
+            <a href="#">Їжа</a>
+            <a href="#">Піші маршрути</a>
+            <a href="#">Вершини</a>
+            <a href="#">Озера</a>
+            <a href="#">Водоспади</a>
+            <a href="#">Полонини</a>
+            <a href="#">Музеї</a>
+            <a href="#">Цікаві місця</a>
+            <a href="#">Розваги</a>
+        </div>
+        <hr/>
+        <div>
+            <a href="#">Карти</a>
+            <a href="#">Блог</a>
+        </div>
+    </div>
+    <header>
+        <img src="./images/menu.svg" alt="menu"/>
+        <img src="./images/logo.svg" alt="logo" id="logo"/>
+    </header>
+    <div id="search-block">
+        <h2>Куди прямуєш?</h2>
+        <div id="input-container">
+            <input placeholder="Обери локацію..."/>
+            <img src="./images/search.svg" alt="search"/>
+        </div>
+    </div>
+    <div id="categories">
+        <div>
+            <img src="./images/house-icon.svg">
+            <span>Житло</span>
+        </div>
+        <div>
+            <img src="./images/kitchen-cooker-utensils-icon.svg">
+            <span>Їжа</span>
+        </div>
+        <div>
+            <img src="./images/house-icon.svg">
+            <span>Розваги</span>
+        </div>
+        <div>
+            <img src="./images/mountain-icon.svg">
+            <span>Вершини</span>
+        </div>
+        <div>
+            <img src="./images/water-wave-icon.svg">
+            <span>Озера</span>
+        </div>
+        <div>
+            <img src="./images/water-wave-icon.svg">
+            <span>Водоспади</span>
+        </div>
+        <div>
+            <img src="./images/map-search-icon.svg">
+            <span>Маршрути</span>
+        </div>
+        <div>
+            <img src="./images/star-empty-icon.svg">
+            <span>Цікаве</span>
+        </div>
+        <div>
+            <img src="./images/bus-stop-icon.svg">
+            <span>Тури</span>
+        </div>
+        <div>
+            <img src="./images/backpack-icon.svg">
+            <span>Походи</span>
+        </div>
+    </div>
+    <div id="popular">
+        <h3>Популярні напрямки</h3>
+        <div id="scroll-container">
+            <div class="popular-item">
+                <img src="./images/Yaremcha.webp" alt="background-image"/>
+                <h5>Яремче</h5>
+            </div>
+            <div class="popular-item">
+                <img src="./images/Mountain.webp" alt="background-image"/>
+                <h5>Поляниця</h5>
+            </div>
+            <div class="popular-item">
+                <img src="./images/Forest.webp" alt="background-image"/>
+                <h5>Поляниця</h5>
+            </div>
+            <div class="popular-item">
+                <img src="./images/Carpathians.webp" alt="background-image"/>
+                <h5>Поляниця</h5>
+            </div>
+            <div class="popular-item">
+                <img src="./images/Yaremcha.webp" alt="background-image"/>
+                <h5>Поляниця</h5>
+            </div>
+            <div class="popular-item">
+                <img src="./images/Forest.webp" alt="background-image"/>
+                <h5>Поляниця</h5>
+            </div>
+            <div class="popular-item">
+                <img src="./images/Carpathians.webp" alt="background-image"/>
+                <h5>Поляниця</h5>
+            </div>
+        </div>
+    </div>
+    <div id="interesting-proposal">
+        <h3>Цікаві пропозиції</h3>
+        <div id="grid-container">
+            <div id="first" class="grid-item">
+                <h5>Новий рік в Карпатах</h5>
+                <span>151 пропозиція</span>
+            </div>
+            <div id="second" class="grid-item">
+                <h5>Чани</h5>
+                <span>151 пропозиція</span>
+            </div>
+            <div id="third" class="grid-item">
+                <h5>Оздоровчий відпочинок</h5>
+                <span>151 пропозиція</span>
+            </div>
+            <div id="fourth" class="grid-item">
+                <h5>SPA</h5>
+                <span>151 пропозиція</span>
+            </div>
+            <div id="fifth" class="grid-item">
+                <h5>Походи для початківців</h5>
+                <span>151 пропозиція</span>
+            </div>
+            <div id="sixth" class="grid-item">
+                <h5>Катання на квадроциклах</h5>
+                <span>151 пропозиція</span>
+            </div>
+        </div>
+    </div>
+    <div id="traveling">
+        <h3>Подорожі Карпатами</h3>
+        <div id="travel-list">
+            <div class="travel-card">
+                <div class="card-image">
+                    <img src="./images/lviv-castle.webp" alt="background-image"/>
+                    <img src="./images/heart.svg" alt="favorite" class="favorite"/>
+                </div>
+                <div class="info-block">
+                    <h5>Замки Львівщини</h5>
+                    <p class="info-item"><img src="./images/clock.svg"/><span>5год. 30хв.</span></p>
+                    <p class="info-item"><img src="./images/git-pull-request.svg"/><span>15 км.</span></p>
+                    <p class="info-item"><img src="./images/map-pin.svg"/><span>4</span></p>
+                </div>
+            </div>
+            <div class="travel-card">
+                <div class="card-image">
+                    <img src="./images/lviv-castle.webp" alt="background-image"/>
+                    <img src="./images/heart.svg" alt="favorite" class="favorite"/>
+                </div>
+                <div class="info-block">
+                    <h5>Замки Львівщини</h5>
+                    <p class="info-item"><img src="./images/clock.svg"/><span>5год. 30хв.</span></p>
+                    <p class="info-item"><img src="./images/git-pull-request.svg"/><span>15 км.</span></p>
+                    <p class="info-item"><img src="./images/map-pin.svg"/><span>4</span></p>
+                </div>
+            </div>
+            <div class="travel-card">
+                <div class="card-image">
+                    <img src="./images/lviv-castle.webp" alt="background-image"/>
+                    <img src="./images/heart.svg" alt="favorite" class="favorite"/>
+                </div>
+                <div class="info-block">
+                    <h5>Замки Львівщини</h5>
+                    <p class="info-item"><img src="./images/clock.svg"/><span>5год. 30хв.</span></p>
+                    <p class="info-item"><img src="./images/git-pull-request.svg"/><span>15 км.</span></p>
+                    <p class="info-item"><img src="./images/map-pin.svg"/><span>4</span></p>
+                </div>
+            </div>
+            <div class="travel-card">
+                <div class="card-image">
+                    <img src="./images/lviv-castle.webp" alt="background-image"/>
+                    <img src="./images/heart.svg" alt="favorite" class="favorite"/>
+                </div>
+                <div class="info-block">
+                    <h5>Замки Львівщини</h5>
+                    <p class="info-item"><img src="./images/clock.svg"/><span>5год. 30хв.</span></p>
+                    <p class="info-item"><img src="./images/git-pull-request.svg"/><span>15 км.</span></p>
+                    <p class="info-item"><img src="./images/map-pin.svg"/><span>4</span></p>
+                </div>
+            </div>
+            <div class="travel-card">
+                <div class="card-image">
+                    <img src="./images/lviv-castle.webp" alt="background-image"/>
+                    <img src="./images/heart.svg" alt="favorite" class="favorite"/>
+                </div>
+                <div class="info-block">
+                    <h5>Замки Львівщини</h5>
+                    <p class="info-item"><img src="./images/clock.svg"/><span>5год. 30хв.</span></p>
+                    <p class="info-item"><img src="./images/git-pull-request.svg"/><span>15 км.</span></p>
+                    <p class="info-item"><img src="./images/map-pin.svg"/><span>4</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h2>Якщо в Карпати, то з Karpaty.rocks!</h2>
+        <p id="description">Усі курорти Карпат. Найвіддаленіші гірські села. Проживання у готелі, садибі чи котеджі. Чим зайнятись, що цікавого побачити, як доїхати. Карти пішохідних маршрутів, пам'ятки культури, гірські вершини.
+        Як легко та швидко почати отримувати клієнтів разом з путівником Карпатами karpaty.rocks? <a href="#">Додайте Ваш об'єкт - це безкоштовно!</a></p>
+        <div>
+            <div id="socials">
+                <img src="./images/facebook.svg" alt="facebook"/>
+                <img src="./images/instagram.svg" alt="instagram"/> 
+            </div> 
+            <div id="markets">
+                <img src="./images/googleplay.svg" alt="googleplay"/>
+                <img src="./images/appstore.svg" alt="appstore"/>
+            </div>
+        </div>
+        <div id="useful-links">
+            <div id="hotelier"">
+                <h3>Готельєру</h3>
+                <a href="#">Умови співпраці</a>
+                <a href="#">Про Karpaty.Rocks</a>
+                <a href="#">Додати об'єкт</a>
+                <a href="#">Кабінет готельєра</a>
+                <a href="#">Контакти</a>
+            </div>
+            <div id="tourist">
+                <h3>Туристу</h3>
+                <a href="#">16 правил поведінки в горах</a>
+                <a href="#">Гірські рятувальні підрозділи</a>
+                <a href="#">Поради рятувальників</a>
+                <a href="#">Цікаві місця</a>
+                <a href="#">Блог</a>
+            </div>
+        </div>   
+        <img src="./images/logo.svg" alt="logo" id="footer-logo"/> 
+        <p>Copyright @ 2010-2014 Karpaty.Rocks</p>
+    </footer>
+</body>
+</html>
