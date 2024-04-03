@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Fixel Text", Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  position: relative;
+  height: 6.5%;
+  padding: 0 1rem;
+}
+header img {
+  position: absolute;
+  top: 25%;
+}
+header #logo {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.photo {
+  position: relative;
+}
+.photo .icons {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  margin: 1rem;
+}
+.photo #arrow-back {
+  position: absolute;
+}
+.photo #like {
+  top: 17%;
+  left: 90%;
+  transform: translate(-100%, -100%);
+}
+.photo #share {
+  top: 37%;
+  left: 90%;
+  transform: translate(-100%, -100%);
+}
+.photo #background-photo {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.photo p {
+  position: absolute;
+  top: 80%;
+  left: 90%;
+  transform: translate(-100%, -100%);
+  color: #FFF;
+  font-size: 12px;
+  margin: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 1.2rem 1rem;
+  box-shadow: 0 2px 0 rgb(245, 245, 245);
+}
+nav a {
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #484849;
+}
+nav a.active {
+  color: #1EBE5F;
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+nav a.active::after {
+  content: "";
+  width: 100%;
+  height: 0.2em;
+  background: #1EBE5F;
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+}
+
+.main-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem;
+}
+.main-info .info-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.main-info .info-text h2 {
+  font-size: 16px;
+}
+.main-info .info-text p {
+  color: #893847;
+  font-size: 12px;
+}
+.main-info .info-text .address {
+  color: #111;
+}
+.main-info .message-button {
+  height: 30px;
+  width: 50px;
+  background-color: #3CDC80;
+  border-radius: 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prices {
+  padding: 1rem;
+  display: flex;
+  gap: 5rem;
+}
+.prices p {
+  font-size: 10px;
+}
+.prices .price {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.features {
+  padding: 1rem;
+}
+.features h2 {
+  font-size: 14px;
+}
+.features .chips-list {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.features .chips-list .chips {
+  padding: 0.3rem 0.5rem;
+  background-color: #F8F8FA;
+  color: #484849;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.description {
+  padding: 1rem;
+  font-size: 12px;
+}
+.description p {
+  margin-bottom: 1rem;
+}
+
+.more-link {
+  position: relative;
+  text-decoration: none;
+}
+.more-link span {
+  color: #686777;
+  font-weight: 600;
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.more-link span::after {
+  content: "";
+  width: 100%;
+  height: 0.2em;
+  background: #686777;
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+}
+.more-link img {
+  position: absolute;
+  top: 2px;
+}
+
+.map {
+  padding: 1rem;
+}
+.map iframe {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.map span {
+  font-size: 12px;
+}
+.map img {
+  top: 5px;
+  margin-left: 5px;
+}
+
+.phone-call {
+  width: calc(100vw - 2rem);
+  padding: 1rem;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  background-color: #F8F8FA;
+  height: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.phone-call p {
+  font-size: 14px;
+  color: #484849;
+}
+.phone-call button {
+  height: 33px;
+  width: 71px;
+  background-color: #3CDC80;
+  border-radius: 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+hr {
+  margin: 0.5rem 1rem;
+  border: 0;
+  border-top: 0.2px solid #D9D9D9;
+}
+
+footer {
+  padding: 1rem 1rem 4rem 1rem;
+  margin-top: 3rem;
+  background-color: #E2F0F6;
+}
+footer h2 {
+  font-size: 12px;
+  margin-bottom: 0.5rem;
+}
+footer #description {
+  font-size: 10px;
+  margin-bottom: 1rem;
+}
+footer a {
+  color: #111;
+}
+footer div {
+  display: flex;
+  justify-content: space-between;
+}
+footer div div {
+  display: flex;
+  gap: 1rem;
+}
+footer #useful-links {
+  margin-top: 1rem;
+}
+footer #useful-links div {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  gap: 0.4rem;
+  text-decoration: underline;
+}
+footer #footer-logo {
+  margin-top: 1rem;
+  width: 9rem;
+}
+footer p {
+  font-size: 7px;
+}/*# sourceMappingURL=accommodation.css.map */
