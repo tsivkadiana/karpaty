@@ -27,34 +27,35 @@ header #logo {
 .photo {
   position: relative;
 }
+.photo button {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  margin: 1rem;
+}
 .photo .icons {
   width: 24px;
   height: 24px;
-  position: absolute;
-  margin: 1rem;
-}
-.photo #arrow-back {
-  position: absolute;
 }
 .photo #like {
-  top: 17%;
-  left: 90%;
-  transform: translate(-100%, -100%);
+  left: 92%;
+  transform: translate(-100%, 0);
 }
 .photo #share {
   top: 37%;
-  left: 90%;
+  left: 92%;
   transform: translate(-100%, -100%);
 }
 .photo #background-photo {
   height: 100%;
+  width: -webkit-fill-available;
   -o-object-fit: cover;
      object-fit: cover;
 }
 .photo p {
   position: absolute;
   top: 80%;
-  left: 90%;
+  left: 92%;
   transform: translate(-100%, -100%);
   color: #FFF;
   font-size: 12px;
@@ -169,7 +170,6 @@ nav a.active::after {
 }
 .more-link span {
   color: #686777;
-  font-weight: 600;
   position: relative;
   width: -moz-fit-content;
   width: fit-content;
